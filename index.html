@@ -4,143 +4,300 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>ILIYA - php backend developer - Linux man page</title>
   <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
-<body>
+<body style="background-color:#F2F7F6;">
+  <div class="container">
 
-<pre class="manheader">ILIYA KARADZHOV                      Linux User's Manual                      ILIYA KARADZHOV(8)</pre>
-<h1>NAME</h1>
-<p class="subtext">
-  Iliya Karadzhov - PHP Backend developer
-</p>
+    <div class="row mt-3">
+      <div class="card text-bg-primary border-light rounded-3">
+        <div class="card-body">
+            <div class="row">
+              <div class="col-1 mt-4">
+                <div class="text-center">
+                  <i class="fa fa-address-card-o fa-3x" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-9 mt-3 stack-on-small">
+                <h4>Only until 15 January: Don’t miss the new Mint PHP Developer offer</h4>
+                <p>Don’t miss this opportunity to diversify and gain exposure to outside employees, starting from just Iliya.</p>
+              </div>
+              <div class="col-2 mt-4">
+                <button type="button" onclick="openEmailTab()" class="btn btn-light btn-lg fs-6 fw-semibold pull-right">Start now</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
 
-<h1>SYNOPSIS</h1>
-<p class="subtext">
-  Iliya  [--php-developer] [--slim-framework] [--codeigniter] [--other]
+    <div class="row mt-5">
+      <p class="lh-1 fs-6 text-muted">Time Balance</p>
+      <p id="minutesParagraph" class="lh-1 fs-2 fw-semibold" style="margin-top: -14px;">$0</p>
+    </div>
 
-</p>
+    <div class="row mt-3">
+      <div class="card border-light rounded-4">
+        <div class="card-body">
+            <div class="row">
+              <div class="col-1 mt-4">
+                <div class="text-center">
+                  <i class="fa fa-folder-open fa-2x" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-3 mt-3">
+                <p class="lh-1 fs-6 text-muted">Available balance</p>
+                <p id="monthsParagraph" class="lh-1 fs-5 fw-semibold" style="margin-top: -12px;">$ 0</p>
+              </div>
+              <div class="col-2 mt-3">
+                <p class="lh-1 fs-6 text-muted">Reserved <i class="bi bi-info-circle"></i></p>
+                <p class="lh-1 fs-5 fw-semibold" style="margin-top: -12px;">$ 30 days</p>
+              </div>
+              <div class="col-2 mt-3">
+                <p class="lh-1 fs-6 text-muted">Keep available 
+                  <i class="bi bi-info-circle" style="font-size: 1rem; color: cornflowerblue;"></i>
+                </p>
+                <p class="lh-1 fs-5 fw-semibold" style="margin-top: -12px;">$ 90 days</p>
+              </div>
+              <div class="col-4 mt-3">
+                <span class="pull-right">
+                  <button type="button" onclick="openEmailTab()" class="btn btn-outline-primary btn-lg fs-6 fw-semibold">Add time</button>
+                </span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
 
-<h1>SUMMARY</h1>
-<p class="subtext">
-  PHP developer with over three years of experience with latest versions of PHP (7.4, 8.0, 8.1 and 8.2).
-  Has solid understanding of APIs & MVCs.
-</p>
-<p class="subtext">
-  Throughout his career, he has developed and maintained APIs,
-  worked with MySQL databases and conducted many unit and postman tests.
-</p>
-<p class="subtext">
-  Old-style debugging legacy || DD(). Autopilot writing JSON Schema & Swagger API documentation.
-</p>
-<p class="subtext">
-  Most recent engagement, he has successfully migrated projects with all dependencies from 7.4 -> 8.0 and then from 8.0 -> 8.2
-</p>
-<p class="subtext">
-  In general, he is passionate contributing & cultivating healthy and high-performance web software applications.
-</p>
+    <div class="row mt-5">
+      <div class="col-12">
+        <p class="lh-1 fs-5 fw-bold">Portfolio</p>
+      </div>
+    </div>
 
-<h1>OPTIONS</h1>
-<p class="subtext">
-  --php-developer
-</p>
-<p class="doublesubtext">
-  Working with php development, I have experience with Codeigniter and SlimFramework, but I fall in love with Laravel recently and
-  ever since I am shifting my skills around it. I am always open to learn new technologies, and I'm used to be involved in
-  the full software life cycle, from conception and design to infrastructure, implementation and unit tests.
-</p>
-<p class="doublesubtext">
-  General Knowledge:
-</p>
-<ul class="triplesubtext">
-  <li>* HTML, Javascript, CSS, Bootstrap.</li>
-  <li>* Programming languages: PHP & C++;</li>
-  <li>* Test Driven Development (TDD);</li>
-  <li>* Version Control (GIT, Git Bash);</li>
-  <li>* jQuery, jChart & jTable;</li>
-  <li>* MariaDB;</li>
-</ul>
+    <div class="row">
+      <div class="card-group gap-4">
+        <div class="card border-light rounded-4" style="margin-left: -12px;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Technology stack</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fs-8 text-muted">PHP 7.4, 8.0, 8.1, 8.2</li>
+              <li class="list-group-item fs-8 text-muted">Codeigniter & SlimFramework</li>
+              <li class="list-group-item fs-8 text-muted">MariaDB/MySQL</li>
+              <li class="list-group-item fs-8 text-muted">Doctrine</li>
+              <li class="list-group-item fs-8 text-muted">Git, Git Bash</li>
+              <li class="list-group-item fs-8 text-muted">PHP Unit</li>
+              <li class="list-group-item fs-8 text-muted">jQuery, jChart & jTable</li>
+              <li class="list-group-item fs-8 text-muted">JSON/XML</li>
+              <li class="list-group-item fs-8 text-muted">Postman and Swagger</li>
+              <li class="list-group-item fs-8 text-muted">Atlassian Services</li>
+              <li class="list-group-item fs-7 fw-semibold">Total 
+                <span class="pull-right">
+                  <p class="fs-7 fw-semibold">$backend = 'Iliya Karadzhov'</p>
+                </span></li>
+            </ul>
 
-<p class="subtext">
-  --slim-framework
-</p>
-<p class="doublesubtext">
-  Half of my professional backend experience is around a customized version of SlimFramework.
-  Developing and maintaining a trio of APIs build in Domain-Driven Design architecture.
-  For the complexity of the business logic it is used a CommandHandler pattern where
-  each API uses the same Domain models. -> almost like microservices tho they share a database as well.
-</p>
+            <p class="lh-1 fs-8 text-muted text-center mt-auto" >8034 Set of Notes Available</p>
+            <button type="button" onclick="openLinkedInProfile()" class="btn btn-primary btn-lg btn-block fs-5 fw-semibold pull-right mt-auto p-3">Invest</button>
+          </div>
+        </div>
+        <div class="card border-light rounded-4">
+          <div class="card-body">
+            <h5 class="card-title">Experience</h5>
+            <ul class="section-content">
+              <li>
+                <!-- Most recent -->
+                <strong>Summit IT</strong> - PHP Developer<br>
+                <em>Nov 2021 – Present</em><br>
+                <ul class="section-content fs-8 text-muted">
+                  <li>Took a part in the development of numerous domain features</li>
+                  <li>All of the APIs & dependent libraries have undergone a full migration to the newest PHP version</li>
+                  <li>Several outdated features were refactored top to bottom</li>
+                  <li>The collection of systems now includes a new independent API</li>
+                </ul>
+              </li>
+              <!-- Past -->
+              <li>
+                <strong>Arexim Engineering LTD</strong> - Full Stack PHP Developer<br>
+                <em>Jun 2020 – Nov 2021</em><br>
+                <ul class="section-content fs-8 text-muted">
+                  <li>Implemented cronjob automation of cross system communication</li>
+                  <li>Brought clarity about used old technology</li>
+                  <li>Improved calculation accuracy of yearly losses and identifying technical workflow flaws</li>
+                  <li>Participated in introducing new inside software domain responsible for handling client complaints,
+                    developing its workflow and implementation end to end</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card border-light rounded-4" style="margin-right: -12px;">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <ul class="section-content">
+              <li>
+                <strong>University of Plovdiv "Paisii Hilendarski"</strong> - Computer science bachelor's degree<br>
+                <em>2018 – 2022</em>
+              </li>
+              <li>
+                <strong>“Vasil Levski” Smolyan</strong> - High school of Natural sciences and Mathematics<br>
+                <em>2013 – 2018</em>
+              </li>
+            </ul>
+            <h5 class="card-title">Skills</h5>
+            <ul class="section-content fs-8 text-muted">
+              <li>Building efficient and secure PHP backend solutions</li>
+              <li>Experience with PHP frameworks</li>
+              <li>Familiarity with unit testing, debugging tools, and error handling</li>
+              <li>Strong problem-solving skills and the ability to work well in teams and meet project deadlines</li>
+              <li>Working with MySQL databases including schema design and querying</li>
+              <li>Proficient in using Git for collaborative development</li>
+              <li>Understanding of web security and implementing measures to protect against common vulnerabilities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<p class="subtext">
-  --codeigniter
-</p>
-<p class="doublesubtext">
-  My past professional experience is in Codeigniter 3.
-  In my personal opinion, working with a standard MVC as well as jQuery, jChart & jTable
-  was an incredible web developer starter pack.
-  Full-stacking gives you clarity for each piece of the puzzle.
-  PHP basic functions. Sessions. Databases. Rendering. Synchronous functions. XMLs. JSONs.
-</p>
+    <div class="row mt-3">
+      <div class="card border-light rounded-4">
+        <div class="card-body">
+            <div class="row">
+              <div class="col-1 mt-4">
+                <div class="text-center">
+                  <i class="fa fa-suitcase fa-3x" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-11 mt-3 stack-on-small">
+                <h4>Investing is more fun with a friend – and more rewarding!</h4>
+                <p class="lh-1 fs-8">Invite your friend Iliya to join Mintos on a quick call, and you can both win bonus experience.</p>
 
-<h1>NOTES</h1>
-<p class="subtext bottomcut">
-  * Bachelor of Computer Science | “Paisii Hilendarski” Plovdiv - 2022;<br>
-</p>
-<p class="subtext bottomcut">
-  * High school of Natural sciences and Mathematics | “Vasil Levski” Smolyan – 2018 ;<br>
-</p>
-<br>
+                <div onclick="copyLink()" class="card border-dark border-opacity-10 rounded-4 mt-2 fs-6 fw-semibold" style="width: 30rem; background-color: #F2F7F6;">
+                  <div class="card-body">
+                    https://www.linkedin.com/in/iliya-karadzhov-7930a8200/  <i class="bi bi-copy" style="color: cornflowerblue;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
 
-<h1>HISTORY</h1>
-<p class="subtext bottomcut">
-  * <a href="https://summit-it.bg/">Summit</a><br>
-    Nov, 2021 (current occupation) - Web Developer
-</p>
-<br>
-<p class="doublesubtext">
-  - What did I do?
-</p>
-<ul class="triplesubtext">
-  <li>* Helped to build, launch and maintain the second generation web product of the client company.</li>
-  <li>* Contributed to the architecture and database maintenance.</li>
-  <li>* Migrated all APIs to latest iteration of PHP version.</li>
-  <li>* Collaborated with other developers to define and prioritize bug fixes and new features.</li>
-  <li>* Created a new API which compliments the business logic.</li>
-</ul>
+    <div class="row mt-5">
+      <div class="col-12">
+        <p class="lh-1 fs-5 fw-bold">My motivation</p>
+      </div>
+    </div>
 
-<p class="subtext bottomcut">
-  * <a href="https://www.areximengineering.bg/en/">Arexim Engineering</a><br>
-  Jun, 2020 to Nov, 2021 - Full Stack Developer
-</p>
-<br>
-<p class="doublesubtext">
-  - What did I do?
-</p>
-<ul class="triplesubtext">
-  <li>* Took my first steps into web software development.</li>
-  <li>* Rapidly improving my knowledge in php and javascript.</li>
-  <li>* Due to my past programming experience I was full-fledged web dev in just two months time.</li>
-  <li>* I became the new young wheel of technological improvement in the IT department.</li>
-  <li>* Purposed version control system integration, ticket system.</li>
-  <li>* Improved features, created new, trained colleagues how to use the new software.</li>
-  <li>* Collaborated with outside developers on cross-system communication workflow.</li>
-</ul>
-  
+    <div class="row">
+      <div class="card border-light rounded-4">
+        <div class="card-body">
+          <p class="lh-1 fs-6 fst-italic fw-semibold" >Hey there, team Mintos,</p>
+          <p class="fs-8 fst-italic" >
+            I am reaching out to you out of pure emotion and enthusiasm. I have been keeping an eye on your platform for quite a while
+            before I actually was able to invest a meaningful amount of money. After six months of investing, re-logging and checking out the platform's capabilities,
+            I am now growing to love the product that you have been building for years. 
+          </p>
+          <p class="fs-8 fst-italic" >
+            Just recently, out of pure curiosity, I viewed the mintos career list and noticed that there is an active possition that I could easily fill.
+            After I gave it some thought I am taking the step to try and get your attention with this CV and see for myself if I am up for the job.
+            I believe such project will help me show more substance and cultivate my potential to greater limits. 
+            Realizing that this would be a great advancement in my career, I tremble in excitement just by writing these words down.
+          </p>
+          <p class="fs-8 fst-italic" >
+            And even when I dont have any further expectations I sincerely hope to progress and become a part of your vision. 
+          </p>
+          <p class="fs-8 fst-italic" >
+            Regards, Iliya.
+          </p>
+        </div>
+      </div>
+    </div>
 
-<h1>SEE ALSO</h1>
-<ul class="subtext">
-  <li>* E-mail:      q.karadzhov@gmail.com</li>
-  <li>* LinkedIn:	 <a href="https://www.linkedin.com/in/iliya-karadzhov-7930a8200/">http://www.linkedin.com/in/iliya-karadzhov</a></li>
-</ul>
-
-<p></p>
-
-<br><br>
-<pre class="manheader">Iliya Karadzhov                          <script>document.write( new Date().toLocaleDateString() );</script>                                  ILIYA
-</pre>
-
-<br>
-<p class="footer">
-  © <script>document.write( new Date().getFullYear() );</script> ILIYA KARADZHOV
-</p>
-
+    <div class="position-relative bottom-0 start-0" style="margin-left: 20px;">
+      <p>&copy;<script>document.write( new Date().getFullYear() );</script> ILIYA KARADZHOV</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
+<script>
+
+  function openEmailTab() {
+    const emailAddress = 'your-email@example.com';
+  
+    // Construct the mailto URL
+    const mailtoURL = `mailto:${emailAddress}`;
+  
+    // Open a new tab or window with the mailto URL
+    window.open(mailtoURL, '_blank');
+  }
+
+  function openLinkedInProfile() {
+    // Replace 'your_linkedin_profile_url' with your actual LinkedIn profile URL
+    var linkedinProfileUrl = 'https://www.linkedin.com/in/iliya-karadzhov-7930a8200/';
+
+    // Open the LinkedIn profile URL in a new tab
+    window.open(linkedinProfileUrl, '_blank');
+  }
+
+  function copyLink() {
+        // Create a temporary input element
+        var tempInput = document.createElement("input");
+        // Set the value of the input to the link text
+        tempInput.value = "https://www.linkedin.com/in/iliya-karadzhov-7930a8200/";
+        // Append the input to the body
+        document.body.appendChild(tempInput);
+        // Select the input text
+        tempInput.select();
+        // Execute the copy command
+        document.execCommand("copy");
+        // Remove the temporary input element
+        document.body.removeChild(tempInput);
+
+        // You can optionally provide feedback to the user
+        alert("Link copied to clipboard!");
+    }
+
+  // Function to format number with spaces as thousands separator
+  function formatNumberWithSpaces(number) {
+            return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+        }
+
+  /// Function to calculate and update the time difference
+  function updateTime() {
+            // Set the date of June 20, 2020
+            const startDate = new Date('June 20, 2020 00:00:00 GMT+0000');
+            
+            // Get the current date and time
+            const currentDate = new Date();
+            
+            // Calculate the time difference in milliseconds
+            const timeDifference = currentDate - startDate;
+            
+            // Calculate minutes from milliseconds with two decimal places
+            const minutes = (timeDifference / 60000).toFixed(2);
+
+            // Calculate months from minutes
+            const months = (minutes / (30 * 24 * 60)).toFixed(2);
+
+            // Format the minutes with spaces as thousands separator
+            const formattedMinutes = formatNumberWithSpaces(minutes);
+
+            // Format the months with spaces as thousands separator
+            const formattedMonths = formatNumberWithSpaces(months);
+            
+            // Update the paragraph text
+            document.getElementById('minutesParagraph').innerHTML = `$ ${formattedMinutes}min`;
+            document.getElementById('monthsParagraph').innerHTML = `$ ${formattedMonths} months`;
+        }
+
+
+    // Call updateTime function initially
+    updateTime();
+
+    // Update the time every second
+    setInterval(updateTime, 1000);
+  </script>
 </html>
