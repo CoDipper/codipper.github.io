@@ -1,4 +1,4 @@
-# ManPageCV
-This is my resume written in Linux Manual Style
+# Mintos style CV
+This is my resume written in Mintos Style
 
 https://codipper.github.io/
